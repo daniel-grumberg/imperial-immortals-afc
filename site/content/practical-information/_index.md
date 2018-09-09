@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+title: "Practical Information"
 image: "/img/information-jumbotron.jpg"
 information:
   - heading: "Training and S&C"

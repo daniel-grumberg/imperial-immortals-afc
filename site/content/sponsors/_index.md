@@ -4,7 +4,7 @@ image: "/img/sponsors-jumbotron.jpg"
 description:
     We are very grateful to our sponsors listed below without whom, it would be
     much harder to run the club.
-about:
+sponsors:
   - heading: "eNgage Energy Drink"
     imageUrl: "/img/engage.jpg"
     link: "https://www.engage.gg"

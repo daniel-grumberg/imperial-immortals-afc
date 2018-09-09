@@ -7,7 +7,7 @@
 </div>
 
 <div class="mw7 center ph3 pt4">
-    {{ range $index, $element := .Params.about}}
+    {{ range $index, $element := .Params.sponsors}}
         {{ if modBool $index 2 }}
             {{ partial "sponsor-block" $element }}
         {{ else }}
