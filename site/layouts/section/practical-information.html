@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+<div class="mw7 center ph3 pt4">
+    {{ range $element := .Params.information}}
+        {{ partial "short-text" $element }}
+        <div class="bg-white">&nbsp</div>
+    {{ end }}
+</div>
+
+{{ end }}

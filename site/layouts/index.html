@@ -4,10 +4,15 @@
 
 {{ partial "short-text" .Params.blurb}}
 
-{{ partial "2-up" .Params }}
+<div class="center pt3 pb3 mw7">
+{{ partial "blockquote" .Params.president}}
+</div>
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+<div class="center pt3 pb3 mw7">
+    {{.Content}}
+</div>
 
 {{ partial "blog" . }}
+
 
 {{ end }}

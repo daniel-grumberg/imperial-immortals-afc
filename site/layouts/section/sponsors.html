@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+<div class="mw7 center ph3 pt4">
+    <p class="mw8">{{.Params.description}}</p>
+</div>
+
+<div class="mw7 center ph3 pt4">
+    {{ range $index, $element := .Params.about}}
+        {{ if modBool $index 2 }}
+            {{ partial "sponsor-block" $element }}
+        {{ else }}
+            {{ partial "sponsor-block-reverse" $element }}
+        {{ end }}
+    {{ end }}
+</div>
+
+
+{{ end }}
