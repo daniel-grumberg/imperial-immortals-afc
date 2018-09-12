@@ -32,9 +32,6 @@ about:
     text: >
       We also have good links with the Imperial College Cheerleaders, having
       joint socials which compliment our own highly active social scene, always
-      leading to a good night out! The club has produced outstanding players
-      over the years, and looks to recruit new enthusiastic rookies to become
-      Immortals. Whether you have experience or not, all we ask is that you are
-      willing to work hard and become better with the team.
+      leading to a good night out!
 ---
 
