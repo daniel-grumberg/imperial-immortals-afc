@@ -15,9 +15,9 @@ about:
       them to help you become a better football player.
   - heading: Compete
     imageUrl: /img/ben-qb.jpg
-    quote_wrapper:
-      author: 'Spencer Horsey, Head Coach'
-      quote: Fill this in SPENCER HORSEY please
+#     quote_wrapper:
+#       author: 'Spencer Horsey, Head Coach'
+#       quote: Fill this in SPENCER HORSEY please
     text: >
       For those looking for a competitive team sport, look no further.  The club
       welcomes players of all abilities and sporting backgrounds, and encourage
@@ -36,5 +36,10 @@ about:
       over the years, and looks to recruit new enthusiastic rookies to become
       Immortals. Whether you have experience or not, all we ask is that you are
       willing to work hard and become better with the team.
+grounds:
+    heading: Where we play
+    text: >
+      We practise and play our home games at Imperial's Harlington Sports
+      ground. You can locate it using the map below.
 ---
 

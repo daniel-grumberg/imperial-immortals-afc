@@ -9,6 +9,8 @@ collections: # A list of collections the CMS should be able to edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "site/content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    editor:
+      preview: false
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -33,6 +35,8 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
+        editor:
+          preview: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
@@ -40,6 +44,8 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/sponsors/_index.md"
         label: "Sponsors Page"
         name: "sponsors"
+        editor:
+          preview: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
@@ -55,6 +61,8 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/about/_index.md"
         label: "About Us Page"
         name: "about"
+        editor:
+          - preview: false
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
@@ -68,9 +76,17 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Associated Quote", name: quote_wrapper, widget: object, fields: [
                   {label: "Quote", name: "quote", widget: "string"},
                   {label: "Author", name: "author", widget: "string"}]}
+          - label: Grounds
+            name: grounds
+            widget: object
+            fields:
+                - {label: "Heading", name: heading, widget: string}
+                - {label: "Text", name: text, widget: text}
       - file: "site/content/practical_information/_index.md"
         label: "Information Page"
         name: "information page"
+        editor:
+          preview: false
         fields:
             - {label: Title, name: title, widget: string}
             - {label: Image, name: image, widget: image}
