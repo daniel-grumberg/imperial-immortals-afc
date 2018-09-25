@@ -37,9 +37,9 @@ about:
       Immortals. Whether you have experience or not, all we ask is that you are
       willing to work hard and become better with the team.
 grounds:
-    heading: Where we play
-    text: >
-      We practise and play our home games at Imperial's Harlington Sports
-      ground. You can locate it using the map below.
+  heading: Where we play
+  text: >-
+    We practise and play our home games at Imperial's Harlington Sports Grounds.
+    You can locate it using the map below.
 ---
 
