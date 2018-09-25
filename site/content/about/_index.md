@@ -33,5 +33,10 @@ about:
       We also have good links with the Imperial College Cheerleaders, having
       joint socials which compliment our own highly active social scene, always
       leading to a good night out!
+grounds:
+  heading: Where we play
+  text: >-
+    We practise and play our home games at Imperial's Harlington Sports Grounds.
+    You can locate it using the map below.
 ---
 
