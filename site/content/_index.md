@@ -1,5 +1,5 @@
 ---
-title: Imperial Immortals
+title: '   Imperial Immortals  '
 subtitle: Imperial College London's American Football Club
 image: /img/home-jumbotron.jpg
 blurb:
