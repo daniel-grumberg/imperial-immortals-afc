@@ -10,14 +10,11 @@ about:
       Football Club has rapidly grown as an upcoming team in the BUCS league,
       previously reaching the National Semi-Finals and currently playing in the
       BUCS Division 1A South East. Fixtures are played on Sunday afternoons,
-      with training usually once/twice a week with coaches. We have dedicated
-      coaching  staff with more than three decades of playing experience between
-      them to help you become a better football player.
+      with training usually twice a week. We have dedicated coaching staff with
+      more than three decades of playing experience between them to help you
+      become a better football player.
   - heading: Compete
     imageUrl: /img/ben-qb.jpg
-#     quote_wrapper:
-#       author: 'Spencer Horsey, Head Coach'
-#       quote: Fill this in SPENCER HORSEY please
     text: >
       For those looking for a competitive team sport, look no further.  The club
       welcomes players of all abilities and sporting backgrounds, and encourage
