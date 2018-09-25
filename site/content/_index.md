@@ -14,7 +14,10 @@ blurb:
     team.
 president:
   author: 'Tom Smith, President'
-  quote: Fill this in TOM SMITH please
+  quote: >-
+    The club has produced outstanding players over the years, and looks to
+    recruit new enthusiastic rookies to become Immortals. Whether you have
+    experience or not, all we ask is that you are willing to work hard and
+    become better with the team.
 ---
 
-{{< youtube Z2lDl7M5MIY >}}
