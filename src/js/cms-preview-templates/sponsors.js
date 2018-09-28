@@ -3,7 +3,7 @@ import format from "date-fns/format";
 
 import Jumbotron from "./components/jumbotron";
 
-export default class HomePreview extends React.Component {
+export default class PostPreview extends React.Component {
   render() {
     const {entry, getAsset} = this.props;
     let image = getAsset(entry.getIn(["data", "image"]));
@@ -16,22 +16,20 @@ export default class HomePreview extends React.Component {
     return <div>
         <Jumbotron image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
 
-        <div className="bg-grey-1 pv4">
+        <div className="bg-white pv4">
           <div className="flex-l mhn1-l ph3 center mw7">
-            <h2 className="f2 b lh-title mb2 w-40-l">{entry.getIn(["data", "blurb", "heading"])}</h2>
-            <p className="w-60-l mb0">{entry.getIn(["data", "blurb", "text"])}</p>
+            <p className="w-60-l mb0">{entry.getIn(["data", "description"])}</p>
           </div>
         </div>
 
         <div className="bg-off-white pv4">
             <div class="center mb3 ph3">
-                <blockquote class="bg-grey-1 primary pa3 mb3 br1 b mw6 center">
-                    <p class="f4 mb0">“{entry.getIn(["data", "president", "quote"])}”</p>
-                    <cite class="tr db grey-3">{entry.getIn(["data", "president", "author"])}</cite>
-                </blockquote>
-            </div>
-            <div className="tc">
-              <a href="#" className="btn raise">See all stories</a>
+                <div className="flex-ns flex-wrap mhn2-ns mb3">
+                    {(entry.getIn(["data", "sponsors"]) || []).map((value, index) => <div className="ph2-ns w-50-ns mb4" key={index}>
+                    <img src={value.get("image") && getAsset(value.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
+                    <p className="mt0">{value.get("text")}</p>
+                    </div>)}
+                </div>
             </div>
         </div>
     </div>

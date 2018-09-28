@@ -82,11 +82,11 @@ collections: # A list of collections the CMS should be able to edit
             fields:
                 - {label: "Heading", name: heading, widget: string}
                 - {label: "Text", name: text, widget: text}
-      - file: "site/content/practical_information/_index.md"
+      - file: "site/content/practical-information/_index.md"
         label: "Information Page"
-        name: "information page"
+        name: "practical-information"
         editor:
-          preview: false
+            - preview: false
         fields:
             - {label: Title, name: title, widget: string}
             - {label: Image, name: image, widget: image}
