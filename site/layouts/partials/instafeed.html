@@ -1,0 +1,16 @@
+<div class="bg-off-white pv4">
+    <div class="ph3 mw7 center">
+        <h2 class="f2 b lh-title mb3"><a
+                href="https://www.instagram.com">Instagram</a></h1>
+        <div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+            {{ $urlPre := "https://api.instagram.com/v1/users/self/media/recent?access_token=" }}
+            {{ $id := getenv "INSTA_FEED" }}
+            {{ $inst := getJSON $urlPre $id }}
+            {{ range first 4 $inst.data }}
+            <div class="ph1-ns w-50-ns flex">
+                <iframe src="{{ .link }}embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
