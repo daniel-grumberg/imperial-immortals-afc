@@ -1,23 +1,10 @@
-# Hugo template for Netlify CMS with Netlify Identity
+# Imperial Immortals AFC
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
-
-## Getting started
-
-Use our deploy button to get your own copy of the repository. 
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
-
-This will setup everything needed for running the CMS:
-
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
-
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
-
-Now you're all set, and you can start editing content!
+The website for the Imperial Immortals American Football Club. This is hsoted on
+[Netlify CMS](https://www.netlify.com). If you need rights to CI-CD contact make
+an issue. The website uses the Victor-Hugo framework (generated with Hugo and
+uses Gulp+Webpack as an asset pipeline). You should not have to change any of
+that. The CMS is all you really need to interact with.
 
 ## Local Development
 
