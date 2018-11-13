@@ -6,15 +6,15 @@ date: 2018-11-11
 After last week's bruising defeat, we were eager to get back on the field in
 order to provide our rookies some much-needed experience. The veterans always
 look forward to play at Harlington Sports Ground which we lovingly nicknamed
-"The Fortress" after our undefeated run at home two years ago. Again we were
+"The Fortress" after our undefeated run at home two years ago. Again, we were
 facing an old foe in the UEA Pirates for the 5th time in the last two years, the
 series having been split so far.
 
 Being the professional team the Immortals are, the team assembled in shirt and
 tie to embark on a Union minibus to Harlington. Unfortunately, due a Union
-mixup, warm-ups started early with players running around South Kensington
+mix-up, warm-ups started early with players running around South Kensington
 looking for our minibus, which was not there. Eventually, the players managed to
-complete the Harlington pilgrimage in a convoy of ubers.
+complete the Harlington pilgrimage in a convoy of Ubers.
 
 {{< figure src="/img/uea-home-2019-cheer.jpg" title="Happy Supporters" >}}
 
